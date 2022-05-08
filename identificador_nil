@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main(){
+
+	var saravi *int
+
+	if saravi==nil{
+		fmt.Println("saravi",saravi, "es nil")
+	}else{
+		
+		fmt.Println(saravi, "no es nil")
+	}
+	
