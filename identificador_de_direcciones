@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main(){
+	mango := 100
+	limon := &mango
+	papaya := &limon
+	
+	if *limon == mango{
+		fmt.Println("la direccion de memoria es mango")
+	}
+	if **papaya == *limon{
+		fmt.Println("la direccion de memoria es la misma ala anterior")
+	}
